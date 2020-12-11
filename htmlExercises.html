@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercises</title>
+    <style>
+         table, td, th{
+            border:1px solid black;
+            border-collapse: collapse;
+            /* border-spacing has no effect if border-collapse is used  */
+            border-spacing:15px; 
+        }
+
+        th,td{
+            padding:10px;
+            text-align:center;
+        }
+    </style>
+</head>
+<body>
+    <h3>Print the squares of the numbers 1 - 20. 
+        Each number should be on a separate line, next to it the number 2 superscripted, an equal sign and the result.
+        (Example: 10<sup>2</sup> = 100)</h3>
+    1<sup>2</sup>=1 <br>
+    2<sup>2</sup>=4 <br>
+    3<sup>2</sup>=9 <br>
+    4<sup>2</sup>=16 <br>
+    5<sup>2</sup>=25 <br>
+    6<sup>2</sup>=36 <br>
+    7<sup>2</sup>=49 <br>
+    8<sup>2</sup>=64 <br>
+    9<sup>2</sup>=81 <br>
+    10<sup>2</sup>=100 <br>
+    11<sup>2</sup>=121 <br>
+    12<sup>2</sup>=144 <br>
+    13<sup>2</sup>=169 <br>
+    14<sup>2</sup>=196 <br>
+    15<sup>2</sup>=225 <br>
+    16<sup>2</sup>=256 <br>
+    17<sup>2</sup>=289 <br>
+    18<sup>2</sup>=324 <br>
+    19<sup>2</sup>=361 <br>
+    20<sup>2</sup>=400 <br>
+
+    <h3>Print two lists with any information you want. One list should be an ordered list, the other list should be an unordered list.</h3>
+    <ul>
+        <li>Tea</li>
+        <li>Coffee</li>
+        <li>Cookies</li>
+    </ul>
+
+    <ol>
+        <li>Tea</li>
+        <li>Coffee</li>
+        <li>Cookies</li>
+    </ol>
+
+    <h3>Print a definition list with 5 items.</h3>
+    <dl>
+        <dt>Coffee</dt>
+        <dd>Not good for health</dd>
+        <dt>Milk</dt>
+        <dd>Good for health</dd>
+        <dt>HTML</dt>
+        <dd>Hypertext Markup Language</dd>
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheet</dd>
+        <dt>JS</dt>
+        <dd>JavaScript</dd>
+    </dl>
+
+    <h3>Create some links to various search engines (google, yahoo, altavista, lycos, etc) that should all open in a new window.</h3>
+    Search With <a href="https://www.google.com/" target="_blank">Google</a><br>
+    Search With <a href="https://in.yahoo.com/" target="_blank">Yahoo</a><br>
+    Search With <a href="https://search.yahoo.com/?fr=altavista" target="_blank">Altavista</a><br>
+    Search With <a href="https://www.lycos.com/" target="_blank">Lycos</a><br>
+    Search With <a href="https://www.bing.com/" target="_blank">Bing</a>
+    <br>
+
+    <h3>Display five different images. Skip two lines between each image. Each image should have a title.</h3>
+    <img width="200" height="200" src="imagemap.jpg" alt="" title="laptop"><br><br>
+    <img width="200" height="200" src="https://www.w3schools.com/w3css/img_car.jpg" title="car"><br><br>
+    <img width="200" height="200" src="https://www.w3schools.com/howto/img_girl.jpg" title="girl"><br><br>
+    <img width="200" height="200" src="https://www.w3schools.com/w3images/mac.jpg" title="laptop"><br><br>
+    <img width="200" height="200" src="https://www.w3schools.com/w3images/coffeehouse2.jpg" title="coffe">
+
+    <h3>Print a paragraph with 4 - 5 sentences. Each sentence should be a different font.</h3>
+    <p><span style="font-family: Verdana">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span><span style="font-family:Times New Roman">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span><span style ="font-family: Arial;">It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</span> <span style="font-family: Helvetica;"> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</span></p>
+
+    <h3>Create a table with your choice data</h3>
+    <table style="width:100%">
+        <caption>Employee Details</caption>
+        <tr>
+            <th>Name</th>
+            <th>Mobile No.</th>
+            <th>Country</th>
+        </tr>
+        <tr>
+            <td>Amit</td>
+            <td>1234567890</td>
+            <td>India</td>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>9799868976</td>
+            <td>Germany</td>
+        </tr>
+        <tr>
+            <td>Joey</td>
+            <td>97979689689</td>
+            <td>USA</td>
+        </tr>
+    </table>
+    <h3>Show block and inline elements</h3>
+    <p>This is the block element it takes up <div style="border:1px solid black">Hello Block Element</div> to full width.</p>
+    <p>This is the inline element it take up as much <span style="border:1px solid black">Hello Inline Element</span>width as necessary</p>
+
+    <h3>Display a form with three inputs ,also a input with type as radio,a dropdown , input datalist and a submit button</h3>
+    <form action="">
+        <fieldset>
+            <legend>Personal Data</legend>
+            <label for="fname">First Name:</label><br>
+            <input type="text" name="fname" autofocus><br>
+            <label for="lname">Last Name:</label><br>
+            <input type="text" name="lname"><br>
+            <label for="age">Age:</label><br>
+            <input type="number" name="age"><br>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" value="male">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" value="female"><br>
+            <select name="cars" id="cars">
+                <option value="">Choose a car</option>
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="fiat">Fiat</option>
+                <option value="audi">Audi</option>
+            </select><br>
+            <input list="browsers">
+            <datalist id="browsers">
+                <option value="IE">
+                <option value="Firefox">
+                <option value="Chrome">
+                <option value="safari">
+            </datalist><br>
+            <input type="submit"><br>
+        </fieldset>
+        </form>
+</body>
+</html>
